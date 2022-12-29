@@ -2,7 +2,7 @@
 sudo pacman -Sy
 
 # Install packages
-sudo pacman -S lightmd lightdm-gtk-greeter kitty vlc openbox tint2 nautilus obconf firefox steam discord libreoffice gedit sxiv wine git nitrogen xarchiver gimp conky unzip tar
+sudo pacman -S lightmd lightdm-gtk-greeter kitty vlc openbox gtk4 gtk3 tint2 nautilus obconf firefox steam discord libreoffice gedit sxiv wine git nitrogen xarchiver gimp conky unzip tar
 
 # Install yay
 sudo pacman -S base-devel
@@ -53,6 +53,7 @@ wget -O ~/.config/nitrogen/nitrogen.cfg https://github.com/stfftw/myarchrice/raw
 mkdir -p ~/.config/kitty
 wget -O ~/.config/kitty/kitty.conf https://github.com/stfftw/myarchrice/raw/main/kitty/kitty.conf
 # Download Tint2 configuration file
+mkdir -p ~/.config/tint2
 wget -O ~/.config/tint2/tint2rc https://github.com/stfftw/myarchrice/raw/main/tint2/tint2rc
 
 
