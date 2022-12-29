@@ -1,5 +1,5 @@
 # myarchrice
-Aesthetic and practical enviroment.
+Aesthetic and practical environment.
 
 ![alt text](https://github.com/stfftw/myarchrice/raw/main/Examples/Desktop%201_001.png)
 
@@ -11,3 +11,5 @@ cd ~/Downloads
 chmod +x install.sh
 ./install.sh
 ```
+
+## Feel free to use and modify it.
