@@ -11,7 +11,7 @@ tar -xzvf yay.tar.gz
 cd yay
 makepkg -si
 
-echo "\033[[1;45mGo grab a drink and some popcorn, it will take at least 20 minutes after you press yes\033[m"
+echo "\033[45mGo grab a drink and some popcorn, it will take at least 20 minutes after you press yes\033[m"
 
 yay -S picom-ibhagwan-git adwaita-dark obmenu
 
@@ -80,5 +80,5 @@ wget -O ~/THEMES/Fresh-Theme.obt https://github.com/stfftw/myarchrice/blob/main/
 sudo systemctl enable lightdm.service
 
 # Done
-echo "\033[[1;32mDone\033[m"
-echo "Restart by typing \033[[1;46msudo reboot now\033[m"
+echo "\033[32mDone\033[m"
+echo "Restart by typing \033[46msudo reboot now\033[m"
