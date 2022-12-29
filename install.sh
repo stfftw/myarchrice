@@ -19,7 +19,7 @@ wget -O ~/.config/conky/config.conf https://link/to/config.conf
 wget -O ~/.config/conky/NvidiaSmiProcess.js https://link/to/NvidiaSmiProcess.js
 
 # Download Fresh-Theme
-wget -O Fresh-Theme.zip https://link/to
+wget -O Fresh-Theme.zip https://link/to/fresh-theme
 # Extract Fresh-Theme
 unzip Fresh-Theme.zip
 
@@ -45,7 +45,10 @@ sudo sed -i 's/^#greeter-session=.*/greeter-session=lightdm-gtk-greeter/' /etc/l
 # Download Openbox configuration files
 wget -O ~/.config/openbox/autostart https://link/to/autostart
 wget -O ~/.config/openbox/menu.xml https://link/to/menu.xml
-wget -O ~/.config/openbox/rc.
+wget -O ~/.config/openbox/rc.xml https://link/to/rc.xml
+wget -O ~/.config/nitrogen/bg-saved.cfg https://link/to/bg-saved.cfg
+wget -O ~/.config/nitrogen/nitrogen.cfg https://link/to/nitrogen.cfg
+wget -O ~/.config/kitty/kitty.conf https://link/to/kitty.conf
 # Download Tint2 configuration file
 wget -O ~/.config/tint2/tint2rc https://link/to/tint2rc
 
@@ -72,4 +75,3 @@ wget -O /home/THEMES/adwaita-d.png https://link/to/adwaita-d.png
 
 # Download and place Fresh-Theme.obt
 wget -O /home/THEMES/Fresh-Theme.obt https://link/to/Fresh-Theme.obt
-
