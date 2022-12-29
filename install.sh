@@ -43,11 +43,14 @@ openbox --reconfigure
 sudo sed -i 's/^#greeter-session=.*/greeter-session=lightdm-gtk-greeter/' /etc/lightdm/lightdm.conf
 
 # Download Openbox configuration files
+mkdir -p ~/.config/openbox
 wget -O ~/.config/openbox/autostart https://github.com/stfftw/myarchrice/raw/main/openbox/autostart
 wget -O ~/.config/openbox/menu.xml https://github.com/stfftw/myarchrice/raw/main/openbox/menu.xml
 wget -O ~/.config/openbox/rc.xml https://github.com/stfftw/myarchrice/raw/main/openbox/rc.xml
+mkdir -p ~/.config/nitrogen
 wget -O ~/.config/nitrogen/bg-saved.cfg https://github.com/stfftw/myarchrice/raw/main/nitrogen/bg-saved.cfg
 wget -O ~/.config/nitrogen/nitrogen.cfg https://github.com/stfftw/myarchrice/raw/main/nitrogen/nitrogen.cfg
+mkdir -p ~/.config/kitty
 wget -O ~/.config/kitty/kitty.conf https://github.com/stfftw/myarchrice/raw/main/kitty/kitty.conf
 # Download Tint2 configuration file
 wget -O ~/.config/tint2/tint2rc https://github.com/stfftw/myarchrice/raw/main/tint2/tint2rc
@@ -65,10 +68,10 @@ sudo wget -O /etc/lightdm/lightdm.conf https://github.com/stfftw/myarchrice/raw/
 sudo wget -O /etc/lightdm/lightdm-gtk-greeter.conf https://github.com/stfftw/myarchrice/raw/main/lightdm/lightdm-gtk-greeter.conf
 
 # Download and place adwaita-d.webp
+sudo mkdir -p /usr/backgrounds
 sudo wget -O /usr/backgrounds/adwaita-d.webp https://github.com/stfftw/myarchrice/blob/main/backgrounds/adwaita-d.webp?raw=true
 
 # Download and place Archlinux.png
-sudo mkdir -p /usr/backgrounds
 sudo wget -O /usr/backgrounds/Archlinux.png https://github.com/stfftw/myarchrice/raw/main/backgrounds/Archlinux.png
 
 # Download and place 686998.jpg and adwaita-d.png
