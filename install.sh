@@ -2,7 +2,7 @@
 sudo pacman -Sy
 
 # Install packages
-sudo pacman -S lightmd lightdm-gtk-greeter kitty vlc openbox gtk4 gtk3 tint2 nautilus obconf firefox steam discord libreoffice gedit sxiv wine git nitrogen xarchiver gimp conky unzip tar
+sudo pacman -S noto-fonts lightdm lightdm-gtk-greeter kitty vlc openbox gtk4 gtk3 tint2 nautilus thunar obconf firefox steam discord libreoffice gedit sxiv wine git nitrogen xarchiver gimp conky unzip tar gnome-control-center lxappearance xfce4-settings
 
 # Install yay
 sudo pacman -S base-devel
@@ -17,7 +17,7 @@ yay -S picom-ibhagwan-git adwaita-dark obmenu
 
 # Download conky configuration files
 mkdir -p ~/.config/conky
-wget -O ~/.config/conky/config.conf https://github.com/stfftw/myarchrice/raw/main/conky/config.conf
+wget -O ~/.config/conky/conky.conf https://github.com/stfftw/myarchrice/raw/main/conky/conky.conf
 wget -O ~/.config/conky/NvidiaSmiProcess.js https://github.com/stfftw/myarchrice/raw/main/conky/NvidiaSmiProcess.js
 
 # Download Fresh-Theme
