@@ -11,7 +11,7 @@ tar -xzvf yay.tar.gz
 cd yay
 makepkg -si
 
-yay -S picom-ibhagwan-git adwaita-dark obmenu tint2conf
+yay -S picom-ibhagwan-git adwaita-dark obmenu
 
 # Download conky configuration files
 mkdir -p ~/.config/conky
