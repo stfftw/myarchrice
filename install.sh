@@ -60,7 +60,7 @@ mkdir -p ~/.config/picom
 wget -O ~/.config/picom/picom.conf https://github.com/stfftw/myarchrice/raw/main/picom/picom.conf
 
 # Download and place lightdm.conf and lightdm-gtk-greeter.conf
-mkdir -p /etc/lightdm
+sudo mkdir -p /etc/lightdm
 sudo wget -O /etc/lightdm/lightdm.conf https://github.com/stfftw/myarchrice/raw/main/lightdm/lightdm.conf
 sudo wget -O /etc/lightdm/lightdm-gtk-greeter.conf https://github.com/stfftw/myarchrice/raw/main/lightdm/lightdm-gtk-greeter.conf
 
@@ -68,13 +68,13 @@ sudo wget -O /etc/lightdm/lightdm-gtk-greeter.conf https://github.com/stfftw/mya
 sudo wget -O /usr/backgrounds/adwaita-d.webp https://github.com/stfftw/myarchrice/blob/main/backgrounds/adwaita-d.webp?raw=true
 
 # Download and place Archlinux.png
-mkdir -p /usr/backgrounds
+sudo mkdir -p /usr/backgrounds
 sudo wget -O /usr/backgrounds/Archlinux.png https://github.com/stfftw/myarchrice/raw/main/backgrounds/Archlinux.png
 
 # Download and place 686998.jpg and adwaita-d.png
-mkdir -p /home/THEMES
-wget -O /home/THEMES/686998.jpg https://github.com/stfftw/myarchrice/raw/main/THEMES/686998.jpg
-wget -O /home/THEMES/adwaita-d.png https://github.com/stfftw/myarchrice/raw/main/THEMES/adwaita-d.png
+mkdir -p ~/THEMES
+wget -O ~/THEMES/686998.jpg https://github.com/stfftw/myarchrice/raw/main/THEMES/686998.jpg
+wget -O ~/THEMES/adwaita-d.png https://github.com/stfftw/myarchrice/raw/main/THEMES/adwaita-d.png
 
 # Download and place Fresh-Theme.obt
-wget -O /home/THEMES/Fresh-Theme.obt https://github.com/stfftw/myarchrice/blob/main/THEMES/Fresh-Theme.obt?raw=true
+wget -O ~/THEMES/Fresh-Theme.obt https://github.com/stfftw/myarchrice/blob/main/THEMES/Fresh-Theme.obt?raw=true
