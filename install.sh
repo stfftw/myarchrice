@@ -2,7 +2,7 @@
 sudo pacman -Sy
 
 # Install packages
-sudo pacman -S lightmd lightdm-gtk-greeter vlc openbox tint2 nautilus obconf firefox steam discord libreoffice gedit sxiv wine git nitrogen xarchiver gimp conky unzip tar
+sudo pacman -S lightmd lightdm-gtk-greeter kitty vlc openbox tint2 nautilus obconf firefox steam discord libreoffice gedit sxiv wine git nitrogen xarchiver gimp conky unzip tar
 
 # Install yay
 sudo pacman -S base-devel
