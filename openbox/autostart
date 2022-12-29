@@ -1,0 +1,4 @@
+nitrogen --restore
+tint2 &
+conky &
+picom --experimental-backends --blur-method=dual_kawase --backend glx
