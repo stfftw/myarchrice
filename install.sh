@@ -2,7 +2,7 @@
 sudo pacman -Sy
 
 # Install packages
-sudo pacman -S lightmd lightdm-gtk-greeter vlc openbox tint2 nautilus obconf tint2conf firefox steam discord libreoffice gedit sxiv wine git nitrogen xarchiver gimp conky unzip tar
+sudo pacman -S lightmd lightdm-gtk-greeter vlc openbox tint2 nautilus obconf firefox steam discord libreoffice gedit sxiv wine git nitrogen xarchiver gimp conky unzip tar
 
 # Install yay
 sudo pacman -S base-devel
@@ -11,7 +11,7 @@ tar -xzvf yay.tar.gz
 cd yay
 makepkg -si
 
-yay -S picom-ibhagwan-git adwaita-dark obmenu
+yay -S picom-ibhagwan-git adwaita-dark obmenu tint2conf
 
 # Download conky configuration files
 mkdir -p ~/.config/conky
