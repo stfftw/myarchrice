@@ -1,3 +1,5 @@
+echo -e "\033[32mStarting installation script\033[m"
+
 # Update package index
 sudo pacman -Sy
 
