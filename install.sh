@@ -15,7 +15,7 @@ makepkg -si
 
 echo -e "\033[35mGo grab a drink and some popcorn, it will take at least 20 minutes after you press yes\033[m"
 
-yay -S picom-ibhagwan-git adwaita-dark obmenu
+yay -S picom-ibhagwan-git adwaita-dark
 
 # Download conky configuration files
 mkdir -p ~/.config/conky
