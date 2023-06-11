@@ -4,7 +4,7 @@ echo -e "\033[32mStarting installation script\033[m"
 sudo pacman -Sy
 
 # Install packages
-sudo pacman -S noto-fonts lightdm lightdm-gtk-greeter ncurses dunst kitty vlc openbox gtk4 gtk3 tint2 nautilus obconf firefox steam discord libreoffice gedit sxiv wine git nitrogen xarchiver gimp conky unzip tar gnome-tweaks lxappearance xfce4-settings
+sudo pacman -S noto-fonts lightdm lightdm-gtk-greeter ncurses dunst rofi kitty vlc openbox gtk4 gtk3 tint2 nautilus obconf firefox steam discord libreoffice gedit sxiv wine git nitrogen xarchiver gimp conky unzip tar gnome-tweaks lxappearance xfce4-settings
 
 # Install yay
 sudo pacman -S base-devel
